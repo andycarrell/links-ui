@@ -2,23 +2,24 @@ import React from 'react';
 
 const LinkItem = props => (
 	<a
-		href={props.url}
+		className="lky-link-text"
 		target="_blank"
 		rel="noopener noreferrer"
+		href={props.url}
 	>
 		{props.title}
 	</a>
 );
 
 const LinkList = ({ links }) => (
-	<div id="list">
-		{links.map(link => (
-			<div key={link.id}>
-				<LinkItem {...link} />
-				<br />
-				<br />
-			</div>
-		))}
+	<div>
+		{
+			links.map(link => (
+				<div className="lky-link" key={link.id}>
+					<LinkItem {...link} />
+				</div>
+			))
+		}
 	</div>
 );
 

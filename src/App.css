@@ -1,14 +1,25 @@
-.app {
+.lky {
   text-align: center;
 }
 
-.app-header {
+.lky-header {
   background-color: #222;
   height: 60px;
   padding: 20px;
   color: white;
 }
 
-.app-intro {
+.lky-intro {
   font-size: large;
+}
+
+.lky-link {
+  padding: 5px 20px;
+  text-align: left;
+}
+
+.lky-link-text {
+  font-family: 'Open Sans',serif;
+  text-decoration: none;
+  color: black;
 }

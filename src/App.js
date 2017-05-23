@@ -29,8 +29,8 @@ class App extends Component {
 
 	render() {
 		return (
-			<div className="app">
-				<div className="app-header">
+			<div className="lky">
+				<div className="lky-header">
 					<h2>Links</h2>
 				</div>
 				<br />
