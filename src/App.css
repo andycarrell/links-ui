@@ -1,21 +1,22 @@
-.lky {
-  text-align: center;
-}
-
 .lky-header {
+  text-align: center;
   background-color: #222;
   height: 60px;
   padding: 20px;
   color: white;
 }
 
-.lky-intro {
-  font-size: large;
+.lky-body {
+  padding: 5px;
 }
 
 .lky-link {
   padding: 5px 20px;
   text-align: left;
+}
+
+.lky-link:hover {
+  background-color: #f1f1f1;
 }
 
 .lky-link-text {

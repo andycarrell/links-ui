@@ -28,15 +28,18 @@ class App extends Component {
 	}
 
 	render() {
+		const list = this.state.loading || (
+			<LinkList links={this.state.links} />
+		);
+
 		return (
-			<div className="lky">
+			<div>
 				<div className="lky-header">
 					<h2>Links</h2>
 				</div>
-				<br />
-				{this.state.loading ||
-					<LinkList links={this.state.links} />
-				}
+				<div className="lky-body">
+					{list}
+				</div>
 			</div>
 		);
 	}

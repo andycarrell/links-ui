@@ -23,4 +23,20 @@ export const mockLinks = [
 		dateRead: '',
 		status: 'ACTIVE',
 	},
+	{
+		id: '1e3e9840-3fa2-11e7-b0a6-877c97141613',
+		title: 'Github merging',
+		url: 'https://jneem.github.io/merging/',
+		dateCreated: '2017-05-23T10:26:18.453Z',
+		dateRead: '',
+		status: 'ACTIVE',
+	},
+	{
+		id: '513c3990-3fa3-11e7-9dcd-6bb3b37e12e2',
+		title: 'Literature & linked lists',
+		url: 'https://dev.to/alainakafkes/on-literature-and-linked-lists',
+		dateCreated: '2017-05-23T10:33:32.612Z',
+		dateRead: '',
+		status: 'ACTIVE',
+	},
 ];
