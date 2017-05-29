@@ -10,17 +10,29 @@
   padding: 5px;
 }
 
-.lky-link {
+.lky-link-container {
   padding: 5px 20px;
-  text-align: left;
+  display: flex;
+  justify-content: space-between;
 }
 
 .lky-link:hover {
   background-color: #f1f1f1;
 }
 
-.lky-link-text {
+.lky-link-link {
   font-family: 'Open Sans',serif;
   text-decoration: none;
   color: black;
+  overflow: none;
+}
+
+.lky-link-button {
+  font-family: 'Open Sans',serif;
+}
+
+.h-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

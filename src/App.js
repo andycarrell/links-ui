@@ -10,6 +10,8 @@ class App extends Component {
 	constructor(props) {
 		super(props);
 
+		this.onDoneClick = this.onDoneClick.bind(this);
+
 		this.state = {
 			links: [],
 			loading: false,
@@ -27,9 +29,18 @@ class App extends Component {
 		}));
 	}
 
+	onDoneClick(id) {
+		this.setState(({ links: prevLinks }) => ({
+			links: prevLinks.filter(l => l.id !== id)
+		}));
+	}
+
 	render() {
 		const list = this.state.loading || (
-			<LinkList links={this.state.links} />
+			<LinkList
+				links={this.state.links}
+				onDoneClick={this.onDoneClick}
+			/>
 		);
 
 		return (
