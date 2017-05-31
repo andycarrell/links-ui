@@ -49,6 +49,21 @@ class App extends Component {
 					<h2>Links</h2>
 				</div>
 				<div className="lky-body">
+					<div className="lky-input-container">
+						<div className="h-fullwidth">
+							<div className="lky-input-wrapper">
+								<div>Title</div>
+								<input className="lky-input" />
+							</div>
+							<div className="lky-input-wrapper">
+								<span>Link</span>
+								<input className="lky-input" />
+							</div>
+						</div>
+						<button className="lky-link-button">
+							Save
+						</button>
+					</div>
 					{list}
 				</div>
 			</div>

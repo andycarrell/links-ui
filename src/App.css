@@ -16,6 +16,23 @@
   justify-content: space-between;
 }
 
+.lky-input-container {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lky-input-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lky-input {
+  padding: 0px 15px;
+  outline: none;
+  width: 100%;
+}
+
 .lky-link:hover {
   background-color: #f1f1f1;
 }
@@ -35,4 +52,8 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.h-fullwidth {
+  width: 100%;
 }
