@@ -10,5 +10,9 @@ phases:
 
 artifacts:
   files:
-    - build/**/*
-  discard-paths: yes
+    - static/**/*
+    - asset-manifest.json
+    - favicon.ico
+    - index.html
+    - manifest.json
+  base-directory: build
